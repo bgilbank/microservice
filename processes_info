@@ -1,0 +1,536 @@
+  PID TTY           TIME CMD
+    1 ??         6:17.70 /sbin/launchd
+   42 ??         0:15.79 /usr/sbin/syslogd
+   43 ??         0:16.85 /usr/libexec/UserEventAgent (System)
+   46 ??         0:04.58 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+   47 ??         0:14.91 /usr/libexec/kextd
+   48 ??         7:26.54 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+   54 ??         0:01.21 /Applications/Aruba Networks/ClearPassOnGuard.app/Contents/PlugIns/viavpn.bundle/Contents/MacOS/OnGuardVPNServiceDaemon
+   57 ??         0:02.15 /System/Library/CoreServices/appleeventsd --server
+   58 ??         3:13.23 /usr/sbin/systemstats --daemon
+   60 ??         4:06.48 /usr/libexec/configd
+   61 ??         1:06.68 /System/Library/CoreServices/powerd.bundle/powerd
+   62 ??         0:03.40 /Library/Application Support/JAMF/Jamf.app/Contents/MacOS/JamfDaemon.app/Contents/MacOS/JamfDaemon
+   65 ??         1:52.90 /usr/libexec/logd
+   67 ??         9:01.30 /Library/Application Support/Cylance/Desktop/CylanceSvc.app/Contents/MacOS/CylanceSvc
+   74 ??         7:08.28 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+   76 ??         0:29.61 /usr/libexec/diskarbitrationd
+   80 ??         0:01.63 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+   84 ??         3:07.47 /usr/libexec/opendirectoryd
+   85 ??         3:30.36 /Library/Application Support/OpenDNS Roaming Client/dns-updater
+   86 ??         0:09.61 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+   87 ??         0:00.19 /Library/PrivilegedHelperTools/com.docker.vmnetd
+   88 ??         0:01.25 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+   89 ??         0:49.70 /System/Library/CoreServices/launchservicesd
+   90 ??         0:03.31 /usr/libexec/timed
+   91 ??         0:41.74 /usr/sbin/securityd -i
+   92 ??         0:00.77 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+   94 ??         2:11.61 /usr/libexec/locationd
+   96 ??         0:00.17 autofsd
+   97 ??         0:05.95 /usr/libexec/displaypolicyd -k 1
+   99 ??        15:52.65 /Applications/Aruba Networks/ClearPassOnGuard.app/Contents/PlugIns/OnGuard.bundle/Contents/MacOS/ServiceDaemon
+  100 ??         0:17.37 /usr/libexec/dasd
+  106 ??         0:03.52 /Library/Application Support/Box/Box/Autoupdater/Box Autoupdater.app/Contents/MacOS/Box Autoupdater
+  107 ??         0:44.32 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+  108 ??         0:00.66 /System/Library/CoreServices/logind
+  109 ??         0:01.45 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+  110 ??         0:00.02 /usr/sbin/KernelEventAgent
+  111 ??         0:02.24 /usr/local/sbin/enosxintel -p /usr/local/sbin
+  113 ??         0:15.64 /usr/sbin/bluetoothd
+  114 ??         8:43.02 /usr/libexec/hidd
+  116 ??         0:09.69 /usr/libexec/corebrightnessd --launchd
+  117 ??         0:06.65 /usr/libexec/AirPlayXPCHelper
+  118 ??         1:37.77 /usr/sbin/notifyd
+  124 ??         0:06.87 /usr/sbin/distnoted daemon
+  131 ??         0:10.34 /usr/libexec/taskgated
+  141 ??         0:24.11 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+  142 ??         0:35.42 /System/Library/CoreServices/coreservicesd
+  143 ??         1:10.54 /usr/sbin/cfprefsd daemon
+  146 ??         4:05.57 /usr/libexec/syspolicyd
+  169 ??       136:51.73 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+  171 ??         0:29.44 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+  178 ??         6:59.55 /usr/sbin/coreaudiod
+  180 ??         0:00.02 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+  185 ??         2:59.62 /usr/libexec/trustd
+  190 ??         1:09.58 /usr/libexec/symptomsd
+  209 ??         0:06.84 /usr/libexec/nsurlsessiond --privileged
+  210 ??         0:14.84 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+  212 ??         0:06.09 /usr/libexec/lsd runAsRoot
+  214 ??         1:00.69 /usr/sbin/mDNSResponder
+  215 ??         0:06.22 /usr/sbin/mDNSResponderHelper
+  220 ??         0:00.02 /usr/libexec/multiversed
+  222 ??         0:00.22 /usr/libexec/apfsd
+  223 ??         3:02.85 /usr/libexec/airportd
+  226 ??         0:16.71 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+  228 ??         3:43.91 /usr/libexec/ApplicationFirewall/socketfilterfw
+  230 ??         1:02.65 /System/Library/CoreServices/SubmitDiagInfo server-init
+  268 ??         0:04.82 /usr/libexec/watchdogd
+  299 ??         0:00.34 /usr/libexec/thermald
+  319 ??        11:40.78 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  387 ??         3:20.90 /usr/libexec/TouchBarServer
+  393 ??         0:00.29 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+  421 ??         0:02.63 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+  443 ??         0:01.49 /System/Library/CoreServices/sharedfilelistd
+  716 ??         0:35.43 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+ 1384 ??         0:55.79 /Applications/Aruba Networks/ClearPassOnGuard.app/Contents/PlugIns/OnGuard.bundle/Contents/MacOS/OnGuardService
+ 1389 ??         0:16.12 /System/Library/PrivateFrameworks/FamilyControls.framework/Resources/parentalcontrolsd
+ 1396 ??         0:02.59 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+ 1397 ??         0:01.77 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+ 1398 ??         1:12.34 /usr/sbin/cfprefsd agent
+ 1403 ??         0:01.07 /usr/libexec/biokitaggdd
+ 1462 ??         0:00.02 /usr/libexec/securityd_service
+ 1463 ??         0:21.23 /usr/libexec/UserEventAgent (Aqua)
+ 1465 ??         0:18.23 /usr/sbin/distnoted agent
+ 1467 ??         0:15.03 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+ 1469 ??         0:06.76 /usr/libexec/lsd
+ 1470 ??         1:58.12 /usr/libexec/trustd --agent
+ 1471 ??         0:01.96 /System/Library/CoreServices/backgroundtaskmanagementagent
+ 1473 ??         0:03.44 /usr/libexec/rapportd
+ 1475 ??         0:08.59 /usr/sbin/usernoted
+ 1476 ??         0:24.36 /System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip
+ 1478 ??         0:04.52 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+ 1486 ??         0:05.64 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+ 1488 ??         0:53.34 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+ 1490 ??         0:11.02 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+ 1491 ??         0:02.93 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+ 1492 ??         0:00.42 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+ 1502 ??         0:01.77 /usr/sbin/wirelessproxd
+ 1504 ??         0:02.53 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+ 1508 ??         0:14.51 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+ 1509 ??         0:28.44 /usr/libexec/sharingd
+ 1511 ??         0:00.40 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+ 1513 ??         0:00.78 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+ 1514 ??         0:02.48 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+ 1548 ??         0:03.82 /usr/sbin/spindump
+ 1557 ??         0:03.42 /System/Library/CoreServices/sharedfilelistd
+ 1558 ??         1:00.30 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+ 1559 ??         0:02.63 /usr/libexec/pboard
+ 1572 ??       131:10.94 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome -psn_0_106522
+ 1576 ??         0:00.63 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+ 1577 ??         0:06.22 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+ 1582 ??         0:05.36 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+ 1583 ??         0:14.10 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+ 1584 ??         0:47.94 /System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/MacOS/EmojiFunctionRowIM_Extension
+ 1589 ??         0:00.59 /usr/sbin/filecoordinationd
+ 1593 ??         0:28.87 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal -psn_0_143395
+ 1594 ??         0:48.07 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_147492
+ 1624 ??         8:39.16 /Applications/Tower.app/Contents/MacOS/Tower -psn_0_184365
+ 1626 ??         0:23.21 /Applications/TextMate.app/Contents/MacOS/TextMate -psn_0_188462
+ 1637 ??         0:01.06 /usr/sbin/distnoted agent
+ 1640 ??         2:00.71 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+ 1643 ??         2:17.15 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+ 1644 ??         1:57.61 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+ 1645 ??         0:40.10 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+ 1651 ??         0:10.24 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+ 1655 ??         0:03.56 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+ 1658 ??         0:15.03 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+ 1660 ??         1:47.41 /Applications/Box.app/Contents/PlugIns/FinderSyncExt.appex/Contents/MacOS/FinderSyncExt
+ 1671 ??         0:00.15 /usr/libexec/webinspectord
+ 1695 ??         0:11.70 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+ 1698 ??         0:00.41 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+ 1700 ??         0:15.12 /Applications/GlobalProtect.app/Contents/Resources/PanGPS
+ 1701 ??         0:57.06 /Applications/Cylance/CylanceUI.app/Contents/MacOS/CylanceUI
+ 1707 ??         0:00.80 /System/Library/Image Capture/Support/icdd
+ 1708 ??         0:51.78 /Applications/GlobalProtect.app/Contents/MacOS/GlobalProtect
+ 1709 ??         0:09.00 /Library/Application Support/Box/Box/Autoupdater/Box Helper.app/Contents/MacOS/Box Helper
+ 1710 ??         0:52.23 /Applications/BlueJeans.app/Contents/Resources/menulet/BlueJeansMenu.app/Contents/MacOS/BlueJeansMenu
+ 1712 ??         0:09.71 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+ 1713 ??         0:02.87 /System/Library/CoreServices/cloudpaird
+ 1715 ??         2:52.18 /Applications/Aruba Networks/ClearPassOnGuard.app/Contents/MacOS/ClearPassOnGuard
+ 1716 ??         0:12.99 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+ 1717 ??         0:32.79 /Applications/BlueJeans.app/Contents/Resources/daemon/BlueJeansHelper.app/Contents/MacOS/BlueJeansHelper
+ 1718 ??         0:03.55 /System/Library/CoreServices/diagnostics_agent
+ 1735 ??         2:24.93 /Applications/Enterprise Connect.app/Contents/MacOS/Enterprise Connect
+ 1738 ??         0:00.21 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/bgilbank/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/bgilbank/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=76.0.3809.132 --handshake-fd=8
+ 1747 ??         0:00.42 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+ 1748 ??         0:06.00 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+ 1749 ??         0:09.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+ 1759 ??         0:40.82 /Applications/Docker.app/Contents/MacOS/Docker
+ 1952 ??        96:11.66 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --gpu-preferences=IAAAAAAAAAAgAAAAAAAAAAAAYAAAAAAACAAAAAAAAAAIAQAAIAAAAAABAAAAAAAACAEAAAAAAAAQAQAAAAAAABgBAAAAAAAAIAEAAAAAAAAoAQAAAAAAADABAAAAAAAAOAEAAAAAAABAAQAAAAAAAEgBAAAAAAAAUAEAAAAAAABYAQAAAAAAAGABAAAAAAAAaAEAAAAAAABwAQAAAAAAAHgBAAAAAAAAgAEAAAAAAACIAQAAAAAAAJABAAAAAAAAmAEAAAAAAACgAQAAAAAAAKgBAAAAAAAAsAEAAAAAAAC4AQAAAAAAAMABAAAAAAAAyAEAAAAAAADQAQAAAAAAANgBAAAAAAAA4AEAAAAAAADoAQAAAAAAAPABAAAAAAAA+AEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAACgAAABAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAAAAAAANAAAAEAAAAAAAAAAAAAAADgAAABAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAEAAAAGAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAgAAAAQAAAAAAAAAAEAAAAKAAAAEAAAAAAAAAABAAAACwAAABAAAAAAAAAAAQAAAA0AAAAQAAAAAAAAAAEAAAAOAAAAEAAAAAAAAAAEAAAAAAAAABAAAAAAAAAABAAAAAYAAAAQAAAAAAAAAAQAAAAHAAAAEAAAAAAAAAAEAAAACAAAABAAAAAAAAAABAAAAAoAAAAQAAAAAAAAAAQAAAALAAAAEAAAAAAAAAAEAAAADQAAABAAAAAAAAAABAAAAA4AAAAQAAAAAAAAAAYAAAAAAAAAEAAAAAAAAAAGAAAABgAAABAAAAAAAAAABgAAAAcAAAAQAAAAAAAAAAYAAAAIAAAAEAAAAAAAAAAGAAAACgAAABAAAAAAAAAABgAAAAsAAAAQAAAAAAAAAAYAAAANAAAAEAAAAAAAAAAGAAAADgAAAA== --service-request-channel-token=6295968593660122484
+ 2021 ??        20:30.78 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --service-sandbox-type=network --service-request-channel-token=3531816088473265144
+ 2029 ??         0:06.86 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=10849350263074218563 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --seatbelt-client=79
+ 2037 ??         0:04.84 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=15156681267232071810 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --seatbelt-client=72
+ 2039 ??         5:30.14 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=10920947868052883203 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --seatbelt-client=76
+ 2042 ??         0:36.13 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=7824896330463881263 --renderer-client-id=9 --no-v8-untrusted-code-mitigations --seatbelt-client=100
+ 2044 ??         0:52.28 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=674451486929293580 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --seatbelt-client=76
+ 2102 ??         0:09.60 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+ 2129 ??         0:00.57 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+ 2385 ??         0:12.19 /Applications/Docker.app/Contents/MacOS/com.docker.supervisor -watchdog fd:0
+ 2390 ??         0:00.26 com.docker.osxfs serve --address fd:3 --connect vms/0/connect --control fd:4 --log-destination asl
+ 2391 ??         1:11.92 com.docker.vpnkit --ethernet fd:3 --diagnostics fd:4 --pcap fd:5 --vsock-path vms/0/connect --gateway-forwards /Users/bgilbank/Library/Group Containers/group.com.docker/gateway_forwards.json --host-names host.docker.internal,docker.for.mac.host.internal,docker.for.mac.localhost --listen-backlog 32 --mtu 1500 --allowed-bind-addresses 0.0.0.0 --http /Users/bgilbank/Library/Group Containers/group.com.docker/http_proxy.json --dhcp /Users/bgilbank/Library/Group Containers/group.com.docker/dhcp.json --port-max-idle-time 300 --max-connections 2000 --gateway-ip 192.168.65.1 --host-ip 192.168.65.2 --lowest-ip 192.168.65.3 --highest-ip 192.168.65.254 --log-destination asl --udpv4-forwards 123:127.0.0.1:64632 --gc-compact-interval 1800
+ 2392 ??         0:13.63 com.docker.driver.amd64-linux -addr fd:3 -debug
+ 2393 ??         0:00.00 (uname)
+ 2394 ??         0:07.74 com.docker.backend -addr fd:3
+ 2396 ??        80:18.25 com.docker.hyperkit -A -u -F vms/0/hyperkit.pid -c 4 -m 2048M -s 0:0,hostbridge -s 31,lpc -s 1:0,virtio-vpnkit,path=vpnkit.eth.sock,uuid=a824fc17-8df9-48e4-94bf-b194aefbce55 -U e0fa4ff8-8a5b-40dc-b3fb-cd21e927dc02 -s 2:0,ahci-hd,/Users/bgilbank/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw -s 3,virtio-sock,guest_cid=3,path=vms/0,guest_forwards=2376;1525 -s 4,ahci-cd,/Applications/Docker.app/Contents/Resources/linuxkit/docker-desktop.iso -s 5,ahci-cd,vms/0/config.iso -s 6,ahci-cd,/Applications/Docker.app/Contents/Resources/linuxkit/docker.iso -s 7,virtio-rnd -l com1,autopty=vms/0/tty,asl -f bootrom,/Applications/Docker.app/Contents/Resources/uefi/UEFI.fd,,
+ 2750 ??         2:54.31 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --service-sandbox-type=audio --message-loop-type-ui --service-request-channel-token=18309104471957620134
+ 2751 ??         0:00.97 /usr/libexec/assertiond
+ 2968 ??         0:13.91 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+ 3228 ??         0:20.01 ./TaniumClient config get Version
+ 3246 ??         0:26.39 ./TaniumClient config get Status.ClientAddress
+ 3295 ??         0:24.89 ./TaniumClient config get Status.ClientAddress
+ 3666 ??         0:00.18 /usr/libexec/USBAgent
+ 4202 ??         0:55.66 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16335722324712196404 --renderer-client-id=2064 --no-v8-untrusted-code-mitigations --seatbelt-client=189
+ 4467 ??         0:26.36 ./TaniumClient config get Status.ClientAddress
+ 4707 ??         0:01.62 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+ 4880 ??        18:26.62 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=2067874795211441572 --renderer-client-id=2082 --no-v8-untrusted-code-mitigations --seatbelt-client=189
+ 5103 ??         0:32.19 ./TaniumClient config get Status.ClientAddress
+ 5327 ??         0:20.46 ./TaniumClient config get Status.ClientAddress
+ 5673 ??         0:27.02 /Library/Tanium/TaniumClient/TaniumClient config get Version
+ 5758 ??         0:00.33 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd daemon
+ 5792 ??         6:59.04 /usr/local/jamf/bin/jamf launchDaemon -monitorUsage -enforceRestrictions
+ 5841 ??         0:06.50 /usr/local/jamf/bin/jamfAgent
+ 5982 ??         0:26.46 ./TaniumClient config get Status.ClientAddress
+ 6045 ??         0:01.62 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+ 6115 ??         0:00.09 /usr/bin/ssh-agent -l
+ 6131 ??         0:27.56 ./TaniumClient config get Status.ClientAddress
+ 6295 ??         0:01.15 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+ 6741 ??         0:28.60 ./TaniumClient config get Status.ClientAddress
+ 7004 ??         0:19.88 /Library/Tanium/TaniumClient/TaniumClient config get Version
+ 7258 ??         5:26.71 /Applications/FlightDeck Mac Agent.app/Contents/MacOS/FlightDeck Mac Agent
+ 7267 ??         0:31.20 ./TaniumClient config get Status.ClientAddress
+ 7454 ??         0:29.67 ./TaniumClient config get Status.ClientAddress
+ 8194 ??         0:23.61 ./TaniumClient config get Status.ClientAddress
+ 8437 ??         0:11.26 ./TaniumClient config get Status.ClientAddress
+ 8525 ??         0:00.22 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+ 8863 ??         0:18.93 ./TaniumClient config get Status.ClientAddress
+ 9136 ??         1:42.55 /Applications/Box.app/Contents/PlugIns/FinderSyncExt.appex/Contents/MacOS/FinderSyncExt
+ 9422 ??         0:28.46 ./TaniumClient config get Status.ClientAddress
+ 9505 ??         0:14.60 ./TaniumClient config get Status.ClientAddress
+11421 ??         0:21.21 ./TaniumClient config get Status.ClientAddress
+11870 ??         0:11.72 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime
+12153 ??         0:10.04 /System/Library/PreferencePanes/Displays.prefPane/Contents/Resources/MirrorDisplays.app/Contents/MacOS/MirrorDisplays
+12459 ??         0:16.80 /usr/libexec/diskmanagementd
+12715 ??         0:00.33 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+13097 ??         0:23.68 ./TaniumClient config get Status.ClientAddress
+13392 ??         0:16.86 ./TaniumClient config get Status.ClientAddress
+13779 ??         0:48.14 /System/Library/PrivateFrameworks/StorageKit.framework/Resources/storagekitd
+14008 ??         0:42.30 /Library/Tanium/TaniumClient/TaniumClient config get Version
+14025 ??         0:28.41 ./TaniumClient config get Status.ClientAddress
+14043 ??         0:36.75 ./TaniumClient config get Status.ClientAddress
+14074 ??         0:17.32 ./TaniumClient config get Status.ClientAddress
+14125 ??         0:22.54 /Library/Tanium/TaniumClient/TaniumClient config get Version
+14189 ??         0:24.99 ./TaniumClient config get Status.ClientAddress
+14332 ??         0:00.82 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+14333 ??         0:00.38 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+14335 ??         0:00.46 /usr/libexec/lsd
+14539 ??         3:55.09 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=9599106503010950298 --renderer-client-id=296 --no-v8-untrusted-code-mitigations --seatbelt-client=78
+14581 ??        17:58.30 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16386402688990660573 --renderer-client-id=318 --no-v8-untrusted-code-mitigations --seatbelt-client=107
+14582 ??         0:27.78 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=956166233229096122 --renderer-client-id=319 --no-v8-untrusted-code-mitigations --seatbelt-client=118
+14596 ??        21:07.44 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=2487221889733971307 --renderer-client-id=320 --no-v8-untrusted-code-mitigations --seatbelt-client=107
+14734 ??         0:25.79 ./TaniumClient config get Status.ClientAddress
+14964 ??         0:20.36 ./TaniumClient config get Version
+15014 ??         0:46.77 ./TaniumClient config get Status.ClientAddress
+15114 ??         0:23.31 /Library/Tanium/TaniumClient/TaniumClient config get Version
+15165 ??         2:42.82 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=3642007586751229575 --renderer-client-id=356 --no-v8-untrusted-code-mitigations --seatbelt-client=191
+15174 ??         4:30.05 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=1638562641776967016 --renderer-client-id=362 --no-v8-untrusted-code-mitigations --seatbelt-client=193
+15382 ??         0:41.29 ./TaniumClient config get Status.ClientAddress
+15492 ??         0:32.16 ./TaniumClient config get Status.ClientAddress
+15718 ??         0:46.82 ./TaniumClient config get Status.ClientAddress
+15803 ??         0:08.45 ./TaniumClient config get Status.ClientAddress
+16173 ??         0:18.19 ./TaniumClient config get Status.ClientAddress
+16437 ??         0:45.12 /Library/Tanium/TaniumClient/TaniumClient config get Version
+16565 ??         0:42.69 ./TaniumClient config get Status.ClientAddress
+16665 ??         0:28.62 ./TaniumClient config get Status.ClientAddress
+16930 ??         0:12.10 ./TaniumClient config get Status.ClientAddress
+17187 ??         0:17.93 ./TaniumClient config get Status.ClientAddress
+17265 ??         0:35.57 ./TaniumClient config get Status.ClientAddress
+17462 ??         0:14.36 ./TaniumClient config get Status.ClientAddress
+17684 ??         0:24.07 /Library/Tanium/TaniumClient/TaniumClient config get Version
+17691 ??         0:06.83 /System/Library/CoreServices/NowPlayingTouchUI.app/Contents/MacOS/NowPlayingTouchUI
+17718 ??         0:38.89 ./TaniumClient config get Status.ClientAddress
+17987 ??         0:20.56 ./TaniumClient config get Version
+18167 ??         0:21.29 ./TaniumClient config get Status.ClientAddress
+18230 ??         0:17.58 ./TaniumClient config get Status.ClientAddress
+18237 ??         0:40.96 ./TaniumClient config get Status.ClientAddress
+18748 ??         0:17.93 ./TaniumClient config get Status.ClientAddress
+18895 ??         0:46.58 ./TaniumClient config get Version
+19333 ??         0:38.01 ./TaniumClient config get Status.ClientAddress
+19822 ??         0:45.90 ./TaniumClient config get Status.ClientAddress
+20145 ??         0:35.52 ./TaniumClient config get Status.ClientAddress
+20236 ??         0:13.63 ./TaniumClient config get Version
+20914 ??         0:21.33 ./TaniumClient config get Status.ClientAddress
+20990 ??         0:03.22 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=8351127421445723840 --renderer-client-id=2432 --no-v8-untrusted-code-mitigations --seatbelt-client=207
+21052 ??         0:21.99 ./TaniumClient config get Status.ClientAddress
+21066 ??         0:41.14 ./TaniumClient config get Status.ClientAddress
+22027 ??         0:37.02 ./TaniumClient config get Status.ClientAddress
+22529 ??         0:10.88 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+22807 ??         0:38.91 ./TaniumClient config get Status.ClientAddress
+23048 ??         0:37.55 /Library/Tanium/TaniumClient/TaniumClient config get Version
+23407 ??         0:24.40 ./TaniumClient config get Status.ClientAddress
+23483 ??         0:41.19 ./TaniumClient config get Status.ClientAddress
+23806 ??         0:37.32 /Library/Tanium/TaniumClient/TaniumClient config get Version
+24245 ??         0:35.82 ./TaniumClient config get Status.ClientAddress
+25408 ??         0:35.18 ./TaniumClient config get Status.ClientAddress
+25500 ??         0:34.42 ./TaniumClient config get Status.ClientAddress
+26021 ??         0:44.91 ./TaniumClient config get Status.ClientAddress
+26438 ??         0:40.08 ./TaniumClient config get Status.ClientAddress
+26656 ??         0:37.39 ./TaniumClient config get Status.ClientAddress
+27336 ??         0:41.28 ./TaniumClient config get Status.ClientAddress
+27442 ??         0:35.37 ./TaniumClient config get Status.ClientAddress
+27935 ??         0:39.18 ./TaniumClient config get Status.ClientAddress
+28414 ??         0:35.11 ./TaniumClient config get Status.ClientAddress
+28449 ??         0:38.09 /Library/Tanium/TaniumClient/TaniumClient config get Version
+28625 ??         0:33.57 ./TaniumClient config get Status.ClientAddress
+28944 ??         5:36.34 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16925418551315553404 --renderer-client-id=2540 --no-v8-untrusted-code-mitigations --seatbelt-client=214
+29213 ??         0:35.11 ./TaniumClient config get Status.ClientAddress
+29366 ??         0:28.40 ./TaniumClient config get Status.ClientAddress
+29633 ??         0:32.90 ./TaniumClient config get Version
+29898 ??         0:26.13 ./TaniumClient config get Status.ClientAddress
+30022 ??         0:41.04 /Library/Tanium/TaniumClient/TaniumClient config get Version
+30506 ??         0:26.02 ./TaniumClient config get Status.ClientAddress
+30534 ??         0:42.74 ./TaniumClient config get Status.ClientAddress
+31305 ??         0:34.10 ./TaniumClient config get Status.ClientAddress
+31671 ??         0:28.77 ./TaniumClient config get Status.ClientAddress
+31967 ??         0:39.39 ./TaniumClient config get Status.ClientAddress
+32273 ??         0:24.92 /Library/Tanium/TaniumClient/TaniumClient config get Version
+32640 ??         0:39.40 ./TaniumClient config get Status.ClientAddress
+32744 ??         0:34.85 ./TaniumClient config get Status.ClientAddress
+43311 ??         2:34.50 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=6731701283608756742 --renderer-client-id=2704 --no-v8-untrusted-code-mitigations --seatbelt-client=196
+44352 ??        16:31.76 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=8985444734986924982 --renderer-client-id=1026 --no-v8-untrusted-code-mitigations --seatbelt-client=202
+44487 ??        10:09.47 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=980752138742588502 --renderer-client-id=1050 --no-v8-untrusted-code-mitigations --seatbelt-client=222
+44502 ??        12:17.61 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12499778722137893336 --renderer-client-id=1051 --no-v8-untrusted-code-mitigations --seatbelt-client=193
+49171 ??         3:25.49 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=13662461140890666087 --renderer-client-id=2742 --no-v8-untrusted-code-mitigations --seatbelt-client=46
+51515 ??         4:42.56 /Applications/iTerm.app/Contents/MacOS/iTerm2
+54865 ??         1:05.80 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16018616541107692199 --renderer-client-id=2843 --no-v8-untrusted-code-mitigations --seatbelt-client=206
+55981 ??         0:00.01 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+56045 ??         0:03.57 /Library/Tanium/TaniumClient/TaniumClient -d
+56673 ??         0:31.81 ./TaniumClient config get Status.ClientAddress
+56737 ??         0:23.01 /Library/Tanium/TaniumClient/TaniumClient config get Version
+56755 ??         0:37.21 ./TaniumClient config get Status.ClientAddress
+57613 ??         0:33.82 ./TaniumClient config get Status.ClientAddress
+58336 ??         0:24.07 ./TaniumClient config get Status.ClientAddress
+58497 ??         0:36.55 ./TaniumClient config get Status.ClientAddress
+58766 ??         0:11.54 /usr/libexec/PerfPowerServices
+58975 ??         0:33.44 ./TaniumClient config get Status.ClientAddress
+59401 ??         0:45.91 /Library/Tanium/TaniumClient/TaniumClient config get Version
+59459 ??         0:27.07 ./TaniumClient config get Status.ClientAddress
+59757 ??         0:33.54 ./TaniumClient config get Status.ClientAddress
+60465 ??         0:36.46 ./TaniumClient config get Status.ClientAddress
+60480 ??         0:02.93 /usr/libexec/avconferenced
+60482 ??         0:01.70 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+60625 ??         0:28.88 ./TaniumClient config get Status.ClientAddress
+62246 ??         0:33.81 ./TaniumClient config get Version
+62442 ??         0:32.00 ./TaniumClient config get Status.ClientAddress
+62930 ??         0:31.43 ./TaniumClient config get Status.ClientAddress
+63509 ??         0:31.03 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=32061923672246311 --renderer-client-id=2927 --no-v8-untrusted-code-mitigations --seatbelt-client=23
+64341 ??         0:40.64 ./TaniumClient config get Status.ClientAddress
+64893 ??         0:06.95 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s
+65030 ??         0:20.93 ./TaniumClient config get Status.ClientAddress
+65313 ??         0:42.48 ./TaniumClient config get Status.ClientAddress
+65661 ??         0:37.01 ./TaniumClient config get Status.ClientAddress
+66268 ??         0:26.54 /Library/Tanium/TaniumClient/TaniumClient config get Version
+66533 ??         0:31.24 ./TaniumClient config get Status.ClientAddress
+68113 ??         0:24.10 ./TaniumClient config get Status.ClientAddress
+68418 ??         0:33.96 ./TaniumClient config get Status.ClientAddress
+68758 ??         2:20.84 /Applications/Atom.app/Contents/MacOS/Atom
+68760 ??         0:10.82 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=gpu-process --no-sandbox --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAAAAAAALAAAAEAAAAAAAAAAAAAAADAAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAPAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAAAAAAATAAAAEAAAAAAAAAABAAAABQAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAEAAAAQAAAAEAAAAAAAAAABAAAAEgAAABAAAAAAAAAAAQAAABMAAAAQAAAAAAAAAAMAAAAFAAAAEAAAAAAAAAADAAAACwAAABAAAAAAAAAAAwAAAAwAAAAQAAAAAAAAAAMAAAANAAAAEAAAAAAAAAADAAAADwAAABAAAAAAAAAAAwAAABAAAAAQAAAAAAAAAAMAAAASAAAAEAAAAAAAAAADAAAAEwAAABAAAAAAAAAABQAAAAUAAAAQAAAAAAAAAAUAAAALAAAAEAAAAAAAAAAFAAAADQAAABAAAAAAAAAABQAAAA8AAAAQAAAAAAAAAAUAAAAQAAAAEAAAAAAAAAAFAAAAEgAAABAAAAAAAAAABQAAABMAAAAQAAAAAAAAAAYAAAAFAAAAEAAAAAAAAAAGAAAACwAAABAAAAAAAAAABgAAAA0AAAAQAAAAAAAAAAYAAAAPAAAAEAAAAAAAAAAGAAAAEAAAABAAAAAAAAAABgAAABIAAAAQAAAAAAAAAAYAAAATAAAA --service-request-channel-token=59C2393DC37F60AB8DC6184B3247C6FA
+68761 ??         0:00.06 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/_0/bghjgd8j5335w98w2dgzdpvn81dy25/T/Atom Crashes --metrics-dir=/var/folders/_0/bghjgd8j5335w98w2dgzdpvn81dy25/T/Atom Crashes --url=https://atom.io/crash_reports --handshake-fd=41
+68991 ??         5:08.36 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=2883533604282849734 --renderer-client-id=3081 --no-v8-untrusted-code-mitigations --seatbelt-client=206
+69931 ??         0:21.58 /Library/Tanium/TaniumClient/TaniumClient config get Version
+70376 ??         0:27.54 ./TaniumClient config get Status.ClientAddress
+70439 ??         0:33.49 ./TaniumClient config get Status.ClientAddress
+72255 ??         0:32.62 ./TaniumClient config get Status.ClientAddress
+74055 ??         0:25.12 ./TaniumClient config get Status.ClientAddress
+74744 ??         1:42.83 /Applications/Slack.app/Contents/MacOS/Slack
+74745 ??         0:28.08 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=gpu-process --enable-features=SharedArrayBuffer --disable-features=MacV2Sandbox --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAAAAAAALAAAAEAAAAAAAAAAAAAAADAAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAPAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAAAAAAATAAAAEAAAAAAAAAABAAAABQAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAEAAAAQAAAAEAAAAAAAAAABAAAAEgAAABAAAAAAAAAAAQAAABMAAAAQAAAAAAAAAAQAAAAFAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAANAAAAEAAAAAAAAAAEAAAADwAAABAAAAAAAAAABAAAABAAAAAQAAAAAAAAAAQAAAASAAAAEAAAAAAAAAAEAAAAEwAAABAAAAAAAAAABgAAAAUAAAAQAAAAAAAAAAYAAAALAAAAEAAAAAAAAAAGAAAADQAAABAAAAAAAAAABgAAAA8AAAAQAAAAAAAAAAYAAAAQAAAAEAAAAAAAAAAGAAAAEgAAABAAAAAAAAAABgAAABMAAAAQAAAAAAAAAAcAAAAFAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAA0AAAAQAAAAAAAAAAcAAAAPAAAAEAAAAAAAAAAHAAAAEAAAABAAAAAAAAAABwAAABIAAAAQAAAAAAAAAAcAAAATAAAA --service-request-channel-token=8987304961634278602
+74749 ??         0:00.04 /Applications/Slack.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/_0/bghjgd8j5335w98w2dgzdpvn81dy25/T/Slack Crashes --metrics-dir=/var/folders/_0/bghjgd8j5335w98w2dgzdpvn81dy25/T/Slack Crashes --url=https://slack.com/apps/breakpad?instanceUid=2a2bc867-7caa-5546-96a6-8507fc3a2f3b&channel=prod --handshake-fd=56
+74750 ??         3:13.18 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --enable-features=SharedArrayBuffer --disable-features=MacV2Sandbox --service-pipe-token=17737198660150262348 --lang=en-US --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/Applications/Slack.app/Contents/Resources/app.asar --user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Slack/4.0.3 Chrome/69.0.3497.128 Electron/4.2.8 Safari/537.36 Sonic Slack_SSB/4.0.3 --node-integration=false --webview-tag=false --no-sandbox --preload=/Applications/Slack.app/Contents/Resources/app.asar/dist/ssb-interop.bundle.js --background-color=#FFFFFF --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17737198660150262348 --renderer-client-id=4 {"preloadEnvironment":{"resourcePath":"/Applications/Slack.app/Contents/Resources/app.asar","isSonic":true,"appVersion":"4.0.3","teamId":"app","windowType":"main"},"crashReporterOpts":{"productName":"Slack","companyName":"Slack Technologies","uploadToServer":true,"submitURL":"https://slack.com/apps/breakpad?instanceUid=2a2bc867-7caa-5546-96a6-8507fc3a2f3b","extra":{"instanceUid":"2a2bc867-7caa-5546-96a6-8507fc3a2f3b","sessionId":"MmEyYmM4NjctN2NhYS01NTQ2LTk2YTYtODUwN2ZjM2EyZjNiXzE1NjgzMjUzMTk5NTc="}},"perfTimer":{"mainPid":74744,"BOOT":[113883,358072129],"numTeamsAtLaunch":1,"SHELL":[113883,656304873],"APP_READY":[113883,809003155],"APP_CREATED":[113883,915190198],"MAIN_WINDOW_CREATING":[113883,951976766]},"identifier":"slack_preload_metadata_arguments"}
+75103 ??         0:00.11 /usr/sbin/distnoted agent
+77242 ??         0:01.15 /usr/libexec/secinitd
+77761 ??         0:39.19 /Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel
+77782 ??         0:38.53 /Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word
+77794 ??         0:41.41 /Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint
+77827 ??        10:08.50 /Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook
+77841 ??         0:04.59 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+77844 ??         4:13.23 /Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote
+79749 ??         0:00.12 /System/Library/SystemConfiguration/EAPOLController.bundle/Contents/Resources/eapolclient -i en0 -u 1343682629 -g 846622648
+79808 ??         0:00.07 /usr/sbin/netbiosd
+80545 ??         0:09.87 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=8552834709526973488 --renderer-client-id=3311 --no-v8-untrusted-code-mitigations --seatbelt-client=196
+81326 ??         0:37.17 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=14661135228551932882 --renderer-client-id=3340 --no-v8-untrusted-code-mitigations --seatbelt-client=214
+81349 ??         0:00.39 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=13481703131264836275 --renderer-client-id=3341 --no-v8-untrusted-code-mitigations --seatbelt-client=209
+82632 ??         0:04.12 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+82683 ??         0:03.23 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+82841 ??         0:07.17 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+82843 ??         0:00.81 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+82964 ??         0:01.10 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+82969 ??         0:00.62 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+82970 ??         0:00.30 /usr/libexec/secd
+82971 ??         0:00.67 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+82972 ??         0:03.33 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+82973 ??         0:05.62 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+82977 ??         0:00.24 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+82987 ??         0:00.06 /usr/sbin/WirelessRadioManagerd
+82990 ??         0:01.74 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+82992 ??         0:00.20 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+82994 ??         0:02.98 /usr/libexec/sandboxd
+82998 ??         0:00.18 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+83019 ??         0:00.89 /usr/libexec/sysmond
+83046 ??         0:00.40 /usr/libexec/gamecontrollerd
+83047 ??         0:01.12 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+83048 ??         0:00.73 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+83051 ??         0:00.04 /usr/sbin/cfprefsd agent
+83052 ??         0:00.04 /usr/sbin/cfprefsd agent
+83053 ??         0:00.04 /usr/sbin/cfprefsd agent
+83173 ??         0:00.20 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+83189 ??         0:01.14 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+83271 ??         0:00.31 /usr/libexec/biometrickitd --launchd
+83325 ??         0:00.13 /usr/libexec/nsurlstoraged
+83329 ??         0:00.03 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+83331 ??         0:00.04 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+83332 ??         0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+83335 ??         0:00.66 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha
+83339 ??         0:00.63 /usr/libexec/coreduetd
+83349 ??         0:00.61 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+83352 ??         0:00.81 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+83360 ??         0:01.07 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+83361 ??         0:01.09 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+83366 ??         0:02.26 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+83417 ??         0:00.10 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+83600 ??         0:00.26 /usr/libexec/colorsync.displayservices
+83601 ??         0:00.10 /usr/libexec/colorsyncd
+83602 ??         0:00.02 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+83689 ??         0:01.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+83699 ??         0:01.25 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+83735 ??         0:00.76 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+83737 ??         0:00.82 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+84126 ??         0:00.06 /usr/libexec/networkserviceproxy
+84387 ??         0:00.08 /System/Library/CoreServices/pbs
+84467 ??         0:00.02 /usr/sbin/distnoted agent
+84769 ??         0:05.34 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+84784 ??         0:01.16 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+84786 ??         0:05.16 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+84789 ??         0:00.18 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+84795 ??         0:03.85 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+85660 ??         0:22.93 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=4348593025966316889 --renderer-client-id=3448 --no-v8-untrusted-code-mitigations --seatbelt-client=235
+86254 ??         0:00.78 /usr/libexec/studentd
+86321 ??         0:01.43 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=8237814447038570575 --renderer-client-id=3499 --no-v8-untrusted-code-mitigations --seatbelt-client=198
+86628 ??         0:00.35 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=2337300635537935876 --renderer-client-id=3503 --no-v8-untrusted-code-mitigations --seatbelt-client=232
+86632 ??         0:00.29 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=9315480975855507898 --renderer-client-id=3505 --no-v8-untrusted-code-mitigations --seatbelt-client=232
+86633 ??         0:00.76 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=6885844410178406178 --renderer-client-id=3506 --no-v8-untrusted-code-mitigations --seatbelt-client=232
+86818 ??         0:00.13 /System/Library/CoreServices/mapspushd
+87396 ??         0:49.91 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=340407905895130528 --renderer-client-id=3581 --no-v8-untrusted-code-mitigations --seatbelt-client=206
+87400 ??         2:14.69 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17988747028320127312 --renderer-client-id=3582 --no-v8-untrusted-code-mitigations --seatbelt-client=207
+87525 ??         0:04.20 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=6435281467047269815 --renderer-client-id=3601 --no-v8-untrusted-code-mitigations --seatbelt-client=200
+87556 ??         0:00.23 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17853931973380104786 --renderer-client-id=3606 --no-v8-untrusted-code-mitigations --seatbelt-client=201
+87563 ??         0:04.52 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12855672464352653853 --renderer-client-id=3607 --no-v8-untrusted-code-mitigations --seatbelt-client=201
+87564 ??         0:03.26 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=1982685385326697407 --renderer-client-id=3608 --no-v8-untrusted-code-mitigations --seatbelt-client=234
+88116 ??         0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88122 ??         0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88126 ??         0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88128 ??         0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88131 ??         0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88148 ??         0:00.39 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88393 ??         0:00.01 /usr/libexec/keybagd -t 15
+88394 ??         0:00.09 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+88518 ??         0:00.11 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+88529 ??         0:00.07 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+88530 ??         0:00.08 /usr/libexec/dprivacyd
+88540 ??         0:01.00 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+88565 ??         0:00.05 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+88566 ??         0:00.15 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+88603 ??         0:00.13 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+88604 ??         0:00.07 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+88605 ??         0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+88663 ??         0:00.05 /usr/libexec/amfid
+88788 ??         0:02.14 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88789 ??         0:04.65 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+88822 ??         0:00.24 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+88823 ??         0:00.06 /usr/libexec/secinitd
+88985 ??         0:00.21 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+89150 ??         0:00.73 /Library/Tanium/TaniumClient/./TaniumClient -c
+89151 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89155 ??         0:00.71 /Library/Tanium/TaniumClient/./TaniumClient -c
+89191 ??         0:00.68 /Library/Tanium/TaniumClient/TaniumClient -c
+89192 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89193 ??         0:00.70 /Library/Tanium/TaniumClient/TaniumClient -c
+89195 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89205 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89213 ??         0:00.69 /Library/Tanium/TaniumClient/TaniumClient -c
+89216 ??         0:00.68 /Library/Tanium/TaniumClient/./TaniumClient -c
+89217 ??         0:00.68 /Library/Tanium/TaniumClient/./TaniumClient -c
+89218 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89219 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89220 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89221 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89222 ??         0:00.69 /Library/Tanium/TaniumClient/TaniumClient -c
+89227 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89228 ??         0:00.73 /Library/Tanium/TaniumClient/./TaniumClient -c
+89230 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89231 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89233 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89234 ??         0:00.66 /Library/Tanium/TaniumClient/TaniumClient -c
+89235 ??         0:00.65 /Library/Tanium/TaniumClient/./TaniumClient -c
+89237 ??         0:00.68 /Library/Tanium/TaniumClient/./TaniumClient -c
+89238 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89239 ??         0:00.68 /Library/Tanium/TaniumClient/./TaniumClient -c
+89240 ??         0:00.67 /Library/Tanium/TaniumClient/TaniumClient -c
+89241 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89242 ??         0:00.68 /Library/Tanium/TaniumClient/./TaniumClient -c
+89243 ??         0:00.68 /Library/Tanium/TaniumClient/TaniumClient -c
+89244 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89245 ??         0:00.65 /Library/Tanium/TaniumClient/./TaniumClient -c
+89246 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89247 ??         0:00.66 /Library/Tanium/TaniumClient/TaniumClient -c
+89248 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89249 ??         0:00.65 /Library/Tanium/TaniumClient/./TaniumClient -c
+89250 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89251 ??         0:00.66 /Library/Tanium/TaniumClient/TaniumClient -c
+89252 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89253 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89254 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89255 ??         0:00.65 /Library/Tanium/TaniumClient/./TaniumClient -c
+89256 ??         0:00.71 /Library/Tanium/TaniumClient/./TaniumClient -c
+89257 ??         0:00.65 /Library/Tanium/TaniumClient/./TaniumClient -c
+89258 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89259 ??         0:00.65 /Library/Tanium/TaniumClient/TaniumClient -c
+89260 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89261 ??         0:00.65 /Library/Tanium/TaniumClient/./TaniumClient -c
+89262 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89263 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89264 ??         0:00.69 /Library/Tanium/TaniumClient/TaniumClient -c
+89265 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89266 ??         0:00.68 /Library/Tanium/TaniumClient/./TaniumClient -c
+89267 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89268 ??         0:00.66 /Library/Tanium/TaniumClient/./TaniumClient -c
+89269 ??         0:00.71 /Library/Tanium/TaniumClient/./TaniumClient -c
+89270 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89271 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89272 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89273 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89284 ??         0:00.67 /Library/Tanium/TaniumClient/./TaniumClient -c
+89285 ??         0:00.71 /Library/Tanium/TaniumClient/TaniumClient -c
+89286 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89287 ??         0:00.72 /Library/Tanium/TaniumClient/./TaniumClient -c
+89288 ??         0:00.70 /Library/Tanium/TaniumClient/./TaniumClient -c
+89289 ??         0:00.69 /Library/Tanium/TaniumClient/./TaniumClient -c
+89290 ??         0:00.72 /Library/Tanium/TaniumClient/TaniumClient -c
+89336 ??         0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+89782 ??         0:00.15 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+89800 ??         0:00.11 /Library/Application Support/OpenDNS Roaming Client/dnscrypt-proxy --user nobody --local-address=127.0.0.1:53 --plugin=/Library/Application Support/OpenDNS Roaming Client/libdcplugin_erc.so -d
+89870 ??         0:00.08 /System/Library/CoreServices/iconservicesagent
+89871 ??         0:00.02 /System/Library/CoreServices/iconservicesd
+89947 ??         0:00.02 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+89958 ??         0:00.01 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+90201 ??         0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+90202 ??         0:00.17 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+90244 ??         0:00.07 /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kcm --launchd
+90282 ??         0:01.76 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=7660936415529548261 --renderer-client-id=3692 --no-v8-untrusted-code-mitigations --seatbelt-client=239
+90511 ??         0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+90518 ??         0:00.08 /usr/sbin/systemsoundserverd
+90519 ??         0:00.05 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+90562 ??         0:03.46 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12011619673963897510 --renderer-client-id=3707 --no-v8-untrusted-code-mitigations --seatbelt-client=233
+90580 ??         0:00.12 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/76.0.3809.132/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,8020712558988289492,5307069668297153291,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17300651703257067446 --renderer-client-id=3709 --no-v8-untrusted-code-mitigations --seatbelt-client=206
+94963 ??         0:58.31 /Applications/Box.app/Contents/PlugIns/FinderSyncExt.appex/Contents/MacOS/FinderSyncExt
+97754 ??         0:00.90 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+97969 ??         0:10.46 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+98606 ??         0:01.70 /usr/libexec/knowledge-agent
+68525 ttys000    0:00.09 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server /usr/bin/login -fpl bgilbank /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+68526 ttys000    0:00.02 /usr/bin/login -fpl bgilbank /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+68527 ttys000    0:00.08 -bash
+90505 ttys000    0:00.01 script terminal.txt
+69437 ttys002    0:00.08 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server /usr/bin/login -fpl bgilbank /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+69438 ttys002    0:00.02 /usr/bin/login -fpl bgilbank /Applications/iTerm.app/Contents/MacOS/iTerm2 --launch_shell
+69439 ttys002    0:00.04 -bash
+90506 ttys003    0:00.02 /bin/bash -i
+90648 ttys003    0:00.01 ps -ax
+90649 ttys003    0:00.01 tee processes_info

@@ -11,9 +11,10 @@ dockerpath="bgilbank/api"
 # Step 2:  
 # Authenticate & tag
 # echo "Docker ID and Image: $dockerpath"
-docker login -u bgilbank &&\ docker tag v1 api:version1.0
+docker login -u bgilbank
+docker tag api bgilbank/api:v1
 
 
 # Step 3:
 # Push image to a docker repository
-docker push api:v1
+docker push bgilbank/api:v1
