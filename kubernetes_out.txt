@@ -1,0 +1,13 @@
+NAME                            READY   STATUS             RESTARTS   AGE
+api                             0/1     ImagePullBackOff   0          27h
+bgilbank-api-6c99554677-ncf26   1/1     Running            0          24m
+
+* Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+* Restarting with stat
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
