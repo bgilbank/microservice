@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/bgilbank/microservice.svg?style=svg)](https://circleci.com/gh/bgilbank/microservice)
 
 ## Project Overview
 
