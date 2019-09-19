@@ -15,7 +15,7 @@ To operationalize an existing machine learning  microservice using kubernetes. T
 * `$ python3 -m venv ~/.devops`
 * `$ source ~/.devops/bin/activate` 
 
-#### Install project dependences using Makefile
+#### Install project dependencies using Makefile
 
 * Ensure pip is installed on your local machine.
 * Install dependencies listed in requirements.txt using Makefile.
@@ -23,7 +23,7 @@ To operationalize an existing machine learning  microservice using kubernetes. T
 
 #### Install Docker
 
-* Create a free [Docker account](https://hub.docker.com) and install the [Community Edition](https://docs.docker.com/v17.12/install/) on your local machcine. **Note**: install the latest stable release.
+* Create a free [Docker account](https://hub.docker.com) and install the [Community Edition](https://docs.docker.com/v17.12/install/) on your local machine. **Note**: install the latest stable release.
 * Check that Docker has been installed with `$ docker --version`
 
 #### Install Hadolint to check your Dockerfile for errors
@@ -43,27 +43,25 @@ To operationalize an existing machine learning  microservice using kubernetes. T
 
 * Open the Dockerfile with your preferred text editor.
 * Review the completed example below for reference. Do not remove the hadolint ignore statement.
-* Completed example: <https://github.com/bgilbank/microservice/blob/master/Dockerfile>
+* Completed example: <https://github.com/bgilbank/microservice/blob/master/Dockerfile>.
 * After completing the Dockerfile, run `$ make lint` again to ensure there are no errors in your Dockerfile.
 
 #### Build and run your local Docker image by completing the instructions in run_docker.sh
 
 * Completed example: <https://github.com/bgilbank/microservice/blob/master/run_docker.sh>.
 * Run the completed file in your terminal with `$ ./run_docker.sh`
-* If completed successfully, you should see a message that you have a acheived a successful build, and that your app is being served on port 80.
+* If completed successfully, you should see a message that you have acheived a successful build, and that your app is being served on port 80.
 
 #### Now make a prediction!
 
-* With your app still running from the previous command. Open a new terminal windwow inside of your project folder.
+* With your app still running from the previous command. Open a new terminal window inside of your project folder.
 * Type `$ ./make_prediction.sh`, which should produce a prediction.
 
 #### Add a prediction log statement
 
 * Shutdown the running server by typing Ctrl/Command + C.
 * Open app.py with your text editor and add a log statement that prints out the output of prediction values.
-* Example:
-```
-# TO DO: Log the output prediction value
+* Example: ```# TO DO: Log the output prediction value
     LOG.info(f"output prediction: \n{prediction}")
     return jsonify({'prediction': prediction})
 ```
@@ -75,7 +73,7 @@ To operationalize an existing machine learning  microservice using kubernetes. T
 #### Upload your Docker image
 
 * Complete the upload_docker.sh file.
-* Completed exmaple: <https://github.com/bgilbank/microservice/blob/master/upload_docker.sh>.
+* Completed example: <https://github.com/bgilbank/microservice/blob/master/upload_docker.sh>.
 * Upload your local Docker image with `$ ./upload_docker.sh`
 * If successful, you will see the new image in your online Docker account.
 
@@ -101,7 +99,7 @@ To operationalize an existing machine learning  microservice using kubernetes. T
 
 * Update the code in .circleci/config.yml with the code found here: <https://github.com/bgilbank/microservice/blob/master/.circleci/config.yml>.
 * Sign up for a CircleCI account [here](https://circleci.com/signup/). Make sure you sign up with your Github account not Bitbucket.
-* Once signed up you will need to create a new respository on Github and push your code to it.
+* Once signed up, you will need to create a new repository on Github and push your code to it.
 * Now that your code is on Github, go back to CircleCI and click on "Setup project". (Leave all configurations at their default values).
 * You will now select the project you just created on Github, and select "Start building".
 * If all your tests are passing you can add a status badge to your README.md file. This will indicate that your project has passed all CircleCI tests.
