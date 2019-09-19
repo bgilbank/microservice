@@ -64,7 +64,8 @@ To operationalize an existing machine learning  microservice using kubernetes. T
 * Example: 
     ```# TO DO: Log the output prediction value
     LOG.info(f"output prediction: \n{prediction}")
-    return jsonify({'prediction': prediction})```
+    return jsonify({'prediction': prediction})
+    ```
 * Once complete, save the file and run `$ ./run_docker.sh` again in a new terminal window.
 * Copy the output of the terminal and place it inside of a new file called docker_out.txt.
 * Example: <https://github.com/bgilbank/microservice/blob/master/docker_out.txt>.
